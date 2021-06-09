@@ -1,0 +1,65 @@
+/*----------------------------------*/
+/* Name: Thông báo hệ thống         */
+/* Admin: Lê Anh Đức                */
+/* Phone: 0386 897 757              */
+/* Gmail: leanhduc.pro.vn@gmail.com */
+/* Website: https://leanhduc.pro.vn */
+/*----------------------------------*/
+html,body {
+  cursor:url("https://file.leanhduc.pro.vn/image/mouse_f1.png"),auto;
+}
+a:hover {
+  cursor:url("https://file.leanhduc.pro.vn/image/mouse_f2.png"),auto;
+}
+
+#thbao {
+  padding: 0 0 10px 0;
+  /*border-bottom: 1px solid #e6dac3;*/
+}
+
+#thbao-margin {
+  margin: 0 auto;
+}
+
+.thbao-container {
+  width: auto;
+  border: 1px dashed #f2b768;
+  border-radius: 8px;
+  padding: 4px;
+  font-size: 90%;
+}
+
+.thbao-header {
+  background: #ff6734;
+  color: white;
+  border: 0 solid #ffa789;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.thbao-body {
+  background: #fae9c8;
+  padding: 5px 10px;
+  border-radius: 0 8px 8px 0;
+  width: auto;
+}
+
+.thbao-close {
+  float: right;
+  margin-right: -5px;
+}
+
+.rung {
+    animation: rung-lac 2s ease infinite;
+}
+
+@-webkit-keyframes rung-lac {
+    0% {-webkit-transform: rotate(0) scale(1) skew(1deg);}
+    10% {-webkit-transform: rotate(-25deg) scale(1) skew(1deg);}
+    20% {-webkit-transform: rotate(25deg) scale(1) skew(1deg);}
+    30% {-webkit-transform: rotate(-25deg) scale(1) skew(1deg);}
+    40% {-webkit-transform: rotate(25deg) scale(1) skew(1deg);}
+    50% {-webkit-transform: rotate(0) scale(1) skew(1deg);}
+    100% {-webkit-transform: rotate(0) scale(1) skew(1deg);}
+}
