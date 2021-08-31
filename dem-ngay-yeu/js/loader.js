@@ -4,7 +4,7 @@ var loader = function() {
             'opacity': 0,
             'visibility': 'hidden'
         });
-    }, 3333);
+    }, 5000);
 };
 $(function() {
     loader();
